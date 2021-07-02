@@ -1,0 +1,13 @@
+useDynLib(NPBayesImputeCat)
+exportPattern("^[[:alpha:]]+")
+importFrom(methods, "new")
+importFrom(reshape2,"melt")
+importFrom(rlang,"eval_tidy","enquo")
+importFrom(stats, "coef", "qt", "rmultinom", "var")
+importFrom(ggplot2, "ggplot","aes","geom_bar","position_dodge","theme_bw","theme",
+           "element_blank","element_text","scale_fill_manual","facet_wrap","xlab","ylab")
+importFrom(dplyr,"select","%>%")
+importFrom(graphics, "plot")
+importFrom(bayesplot, "mcmc_trace", "mcmc_acf")
+import(Rcpp)
+exportClasses(Rcpp_Lcm)
