@@ -20,12 +20,12 @@ CreateModel(X, MCZ, K, Nmax, aalpha, balpha,seed)
 }
 \details{
 This function should be the first function one should call to use the `NPBayesImputeCat`
-library. The returned model is a `Rcpp lcm` object. See ? `Rcpp Lcm-class`
+library. The returned model is a Lcm object. See ?Lcm
 for more details on the fields available and their arguments. }
 
 \value{
 
-CreateModel returns an Rcpp_lcm object. The returned model object will be referenced in all subsequent calls.
+CreateModel returns an Lcm object. The returned model object will be referenced in all subsequent calls.
 }
 
 \references{

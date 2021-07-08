@@ -11,9 +11,9 @@ kstar_MCMCdiag(kstar, nrun, burn, thin)
 }
 \arguments{
   \item{kstar}{the vector output of kstar from running the DPMPM model}
-  \item{nrun}{number of mcmc iterations used in running the DPMPM model}
+  \item{nrun}{number of MCMC iterations used in running the DPMPM model}
   \item{burn}{number of burn-in iterations used in running the DPMPM model}
-  \item{thin}{number of thinning used in running the DPMPM mode}
+  \item{thin}{number of thinning used in running the DPMPM model}
 }
 
 \value{
